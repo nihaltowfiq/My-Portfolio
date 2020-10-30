@@ -11,10 +11,10 @@ const Header = () => {
                         <h5 className="text-success">Hello I'm</h5>
                         <h1>KAZI NIHAL TOWFIQ</h1>
                         <h5 className="text-success">Web Developer</h5>
-                        <p>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. I develop web applications. My core skill is based on Javascript and I love to do most of the things using JavaScript and React.</p>
+                        <p>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. I develop web applications. My core skill is based on Javascript and I love to do most of the things using JavaScript and React JS.</p>
                         <div className="mt-3">
-                            <Button className="mr-3" size="lg" variant="success">About Me</Button>
-                            <Button variant="outline-success" size="lg">Resume</Button>
+                            <Button href="/about" className="mr-3" size="lg" variant="success">About Me</Button>
+                            <Button target="_blank" href="https://drive.google.com/file/d/10_hv5G5r7rJ8qog56dovc9eKbJndB_vM/view?usp=sharing" variant="outline-success" size="lg">Resume</Button>
                         </div>
                     </div>
 

@@ -1,8 +1,8 @@
 .iconStyle{
-    color: gray;
+    color: white;
 }
 .iconStyle:hover{
-    color: #00C851;
+    color: #28A745;
 }
 .card{
     border: none;    

@@ -1,0 +1,21 @@
+.technology{
+    display: flex;
+    flex-wrap: wrap;
+}
+.technology span {
+    background-color: #24272b;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 13px;
+    height: 26px;
+}
+.findMe a {
+    margin-right: 15px;
+    margin-top: 5px;
+    color: white;
+}
+.findMe a:hover {
+    color:  #28A745;
+}
