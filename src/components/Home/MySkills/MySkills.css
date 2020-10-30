@@ -1,0 +1,76 @@
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.skill > * {
+    flex: 1 1 calc(100% / 2 - 30px);
+}
+  
+.skill .card {
+    position: relative;
+    background-color: #24272b;
+    padding: 20px;
+    padding-bottom: 30px;
+    margin: 12px;
+    border-radius: 4px;
+}
+  
+.skill .card p {
+    position: absolute;
+    background-color: #28A745;
+    padding: 3px 5px;
+    top: 25px;
+    right: 15px;
+    border-radius: 4px;
+}
+  
+.skill .card .progress-ar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    background-color: #28A745;
+    border-radius: 4px;
+}
+  
+.skill > *:nth-child(1), .skill > *:nth-child(2) {
+    margin-top: 0;
+}
+  
+.skill > *:nth-child(2n - 1) {
+    margin-left: 0;
+}
+  
+.skill > *:nth-child(2n) {
+    margin-right: 0;
+}
+  
+.skill > *:last-child {
+    margin-right: 0;
+    flex: 0 0 calc(50% - 15px);
+}
+@media only screen and (max-width: 768px) {  
+    .skill > * {
+        flex: 1 1 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+        .skill .card {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    
+    .skill > *:last-child {
+        flex-basis: 100%;
+        margin-bottom: 0;
+    }
+}
+  
+@media only screen and (max-width: 481px) {  
+    .skill .card {
+        margin-bottom: 15px;
+    }
+}
+  

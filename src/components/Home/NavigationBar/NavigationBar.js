@@ -10,9 +10,9 @@ const NavigationBar = () => {
                 <Navbar.Toggle className="ml-auto" aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link href="" onClick={() => history.push('/home')}>Home</Nav.Link>
+                        <Nav.Link href="" onClick={() => history.push('/')}>Home</Nav.Link>
                         <Nav.Link onClick={() => history.push('/about')}>About</Nav.Link>
-                        <Nav.Link href="#works">Works</Nav.Link>
+                        <Nav.Link href="" onClick={() => history.push('/works')}>Works</Nav.Link>
                         <Nav.Link href="" onClick={() => history.push('/blogs')}>Blogs</Nav.Link>
                         <Nav.Link href="" onClick={() => history.push('/contact')}>Contact</Nav.Link>
                     </Nav>

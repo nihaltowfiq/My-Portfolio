@@ -2,10 +2,11 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Footer from '../Footer/Footer';
 import NavigationBar from '../Home/NavigationBar/NavigationBar';
+import './Blogs.css';
 
 const Blogs = () => {
     return (
-        <div>
+        <div className="blogs-wrapper">
             <NavigationBar />
             <Container className="text-white text-center my-5 py-5">
                 <h1>Blogs are <span className="text-success">Coming Soon!!</span></h1>

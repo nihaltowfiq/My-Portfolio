@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
@@ -7,11 +7,12 @@ import travelGuru from '../../../images/travelGuru.png';
 import volunteerNetwork from '../../../images/volunteerNetwork.png';
 import creativeAgency from '../../../images/creativeAgency.png';
 import './SomeWorks.css';
+import { useHistory } from 'react-router-dom';
 
 const datas = [
     {
         title: "Creative Agency",
-        detail: "A MERN stack web application bulit with ReactJS, MongoDB, NodeJS.",
+        detail: "A MERN stack web application built with ReactJS, MongoDB, NodeJS.",
         img: creativeAgency,
         live: "https://creative-agency-basic.web.app/",
         github: "https://github.com/nihaltowfiq/Creative-Agency",
@@ -19,7 +20,7 @@ const datas = [
     },
     {
         title: "Volunteer Network",
-        detail: "A MERN stack web application bulit with ReactJS, MongoDB, NodeJS.",
+        detail: "A MERN stack web application built with ReactJS, MongoDB, NodeJS.",
         img: volunteerNetwork,
         live: "https://volunteer-network-basic.web.app/",
         github: "https://github.com/nihaltowfiq/Volunteer-Network",
@@ -27,7 +28,7 @@ const datas = [
     },
     {
         title: "Travel Guru",
-        detail: "A front-end web page bulit with ReactJS and React-Bootstrap.",
+        detail: "A front-end web page built with ReactJS and React-Bootstrap.",
         img: travelGuru,
         live: "https://travel-guru-practice.web.app/",
         github: "https://github.com/nihaltowfiq/Travel-Guru",
@@ -37,16 +38,19 @@ const datas = [
 
 const SomeWorks = () => {
     const workDatas = datas;
-
+    const history = useHistory();
     return (
         <Container id="works" className="mt-5 pb-5 text-white">
-            <h2><span className="text-success">Some of</span> my works</h2>
+            <div style={{display:'flex', flexWrap:'wrap'}}>
+                <h2><span className="text-success">Some of</span> my works</h2>
+                <Button onClick={() => history.push('/works')} className="ml-5" size="" variant="outline-success">Show More</Button>
+            </div>
             <Row className="mt-5">
                 {
                     workDatas.map(workData =>
                         <Col key={workData.title} md="4">
                             <Card className="mb-3">
-                                <Card.Img variant="top" src={workData.img} />
+                                <Card.Img height="180px" variant="top" src={workData.img} />
                                 <Card.Body className="cardBody">
                                     <h5>{workData.title} </h5>
                                     <Card.Text>{workData.detail}</Card.Text>
@@ -56,7 +60,7 @@ const SomeWorks = () => {
                                     <div className="mt-2">
                                         {
                                             workData.technology.map(tech =>
-                                                <small className="pr-2">{tech}</small>
+                                                <small key={tech} className="pr-2">{tech}</small>
                                             )
                                         }
                                     </div>

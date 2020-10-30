@@ -1,0 +1,9 @@
+.worksCard{
+    background-color:  #24272b;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+.worksCard img{
+    border-radius: 5px;
+}

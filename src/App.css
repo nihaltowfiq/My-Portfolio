@@ -6,3 +6,9 @@
   background-color: #343A40;
   color: white;
 }
+html {
+  height: 100%;
+}
+body {
+  height : 100vh
+}

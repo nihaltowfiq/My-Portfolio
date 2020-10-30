@@ -1,8 +1,10 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
+import { useHistory } from 'react-router-dom';
 import myPic from '../../../images/myPicture.jpg';
 
 const Header = () => {
+    const history = useHistory();
     return (
         <Container className="my-5">
             <Row className="mt-5">
@@ -13,7 +15,7 @@ const Header = () => {
                         <h5 className="text-success">Web Developer</h5>
                         <p>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. I develop web applications. My core skill is based on Javascript and I love to do most of the things using JavaScript and React JS.</p>
                         <div className="mt-3">
-                            <Button href="/about" className="mr-3" size="lg" variant="success">About Me</Button>
+                            <Button onClick={() => history.push('/about')} className="mr-3" size="lg" variant="success">About Me</Button>
                             <Button target="_blank" href="https://drive.google.com/file/d/10_hv5G5r7rJ8qog56dovc9eKbJndB_vM/view?usp=sharing" variant="outline-success" size="lg">Resume</Button>
                         </div>
                     </div>
