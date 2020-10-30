@@ -1,0 +1,12 @@
+.iconStyle{
+    color: gray;
+}
+.iconStyle:hover{
+    color: #00C851;
+}
+.card{
+    border: none;    
+}
+.cardBody{
+    background-color: #24272b;
+}

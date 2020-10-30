@@ -4,8 +4,8 @@ import myPic from '../../../images/myPicture.jpg';
 
 const Header = () => {
     return (
-        <Container>
-            <Row>
+        <Container className="my-5">
+            <Row className="mt-5">
                 <Col md="6" className="text-white">
                     <div className="pt-5 mt-5 pl-5">
                         <h5 className="text-success">Hello I'm</h5>
