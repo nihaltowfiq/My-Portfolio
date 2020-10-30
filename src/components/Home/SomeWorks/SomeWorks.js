@@ -11,7 +11,7 @@ import './SomeWorks.css';
 const datas = [
     {
         title: "Creative Agency",
-        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo ea dolorum saepe quod repellat quasi recusandae ducimus tenetur iure?",
+        detail: "A MERN stack web application bulit with ReactJS, MongoDB, NodeJS.",
         img: creativeAgency,
         live: "https://creative-agency-basic.web.app/",
         github: "https://github.com/nihaltowfiq/Creative-Agency",
@@ -19,7 +19,7 @@ const datas = [
     },
     {
         title: "Volunteer Network",
-        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo ea dolorum saepe quod repellat quasi recusandae ducimus tenetur iure?",
+        detail: "A MERN stack web application bulit with ReactJS, MongoDB, NodeJS.",
         img: volunteerNetwork,
         live: "https://volunteer-network-basic.web.app/",
         github: "https://github.com/nihaltowfiq/Volunteer-Network",
@@ -27,7 +27,7 @@ const datas = [
     },
     {
         title: "Travel Guru",
-        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo ea dolorum saepe quod repellat quasi recusandae ducimus tenetur iure?",
+        detail: "A front-end web page bulit with ReactJS and React-Bootstrap.",
         img: travelGuru,
         live: "https://travel-guru-practice.web.app/",
         github: "https://github.com/nihaltowfiq/Travel-Guru",
