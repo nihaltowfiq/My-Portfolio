@@ -11,8 +11,8 @@ const About = () => {
     return (
         <div>
             <NavigationBar></NavigationBar>
-            <Container className="text-white my-5">
-                <Row className="py-5">
+            <Container className="fullHeight text-white pt-5">
+                <Row className="pt-5">
                     <Col md="6">
                         <div className="ml-5">
                             <img style={{ borderRadius: '50%', height: '250px' }} src={myPic} className="img-fluid" alt="" />

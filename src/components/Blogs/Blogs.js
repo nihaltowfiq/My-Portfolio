@@ -6,9 +6,9 @@ import './Blogs.css';
 
 const Blogs = () => {
     return (
-        <div className="blogs-wrapper">
+        <div >
             <NavigationBar />
-            <Container className="text-white text-center my-5 py-5">
+            <Container className="fullHeight text-white text-center my-5 py-5">
                 <h1>Blogs are <span className="text-success">Coming Soon!!</span></h1>
             </Container>
             <Footer />

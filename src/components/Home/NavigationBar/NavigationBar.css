@@ -1,0 +1,12 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    margin-right: 10px;
+    font-size: large;
+    font-weight: 500;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #28A745;
+}
+.btn{
+    font-size: large;
+}

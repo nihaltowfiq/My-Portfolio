@@ -4,6 +4,6 @@ html {
 body {
   min-height: 100%;
 }
-.blogs-wrapper{
+.fullHeight{
     height: 100vh;
 }

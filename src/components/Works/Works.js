@@ -14,7 +14,7 @@ const Works = () => {
         <div>
             <NavigationBar></NavigationBar>
             <Container className="my-5">
-                <h1>All of my <span className="text-success">recent works.</span></h1>
+                <h1 className="text-center">All of my <span className="text-success">recent works.</span></h1>
                 {
                     datas.map(data =>
                         <Col key={data.title}>

@@ -20,7 +20,8 @@ const Contact = () => {
     return (
         <div>
             <NavigationBar></NavigationBar>
-            <Container className="py-5 my-5">
+            <Container className="pb-3 my-5">
+                <h2 className="text-center text-success">Contact Me</h2>
                 <Row className="justify-content-md-center">
                     <Form className="contact-form" onSubmit={sendEmail}>
                         <Form.Group >

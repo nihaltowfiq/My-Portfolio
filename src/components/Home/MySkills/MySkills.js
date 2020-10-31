@@ -5,7 +5,6 @@ import './MySkills.css';
 
 const MySkills = () => {
     const mySkill = skill;
-    console.log(mySkill);
     return (
         <Container className="my-5">
             <h2 className="mb-3">My Skill - <span className="text-success">Technology & Tools</span></h2>

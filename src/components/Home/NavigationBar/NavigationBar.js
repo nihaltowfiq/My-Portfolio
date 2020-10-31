@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
+import './NavigationBar.css';
 
 const NavigationBar = () => {
     const history = useHistory();
