@@ -2,12 +2,13 @@ import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
 import myPic from '../../../images/myPicture.jpg';
-import Typical from 'react-typical'
+import Typical from 'react-typical';
 
 const Header = () => {
     const history = useHistory();
     return (
         <Container className="my-5">
+            
             <Row className="mt-5">
                 <Col md="6" className="text-white">
                     <div className="pt-5 mt-5 pl-5">
@@ -22,15 +23,15 @@ const Header = () => {
                         <p>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. I develop web applications. My core skill is based on Javascript and I love to do most of the things using JavaScript and React JS.</p>
                         <div className="mt-3">
                             <Button onClick={() => history.push('/about')} className="mr-3" size="lg" variant="success">About Me</Button>
-                            <Button target="_blank" href="https://drive.google.com/file/d/10_hv5G5r7rJ8qog56dovc9eKbJndB_vM/view?usp=sharing" variant="outline-success" size="lg">Resume</Button>
+                            <Button target="_blank" href="https://drive.google.com/file/d/10_hv5G5r7rJ8qog56dovc9eKbJndB_vM/view?usp=sharing" variant="outline-success" size="lg">Get Resume</Button>
                         </div>
                     </div>
-
                 </Col>
                 <Col md="6">
                     <img src={myPic} alt="" className="img-fluid p-5" style={{ borderRadius: '50%', height: '500px' }} />
                 </Col>
             </Row>
+            
         </Container>
     );
 };
