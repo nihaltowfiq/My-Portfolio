@@ -43,7 +43,7 @@ const SomeWorks = () => {
         <Container id="works" className="mt-5 pb-5 text-white">
             <div style={{display:'flex', flexWrap:'wrap'}}>
                 <h2><span className="text-success">Some of</span> my works</h2>
-                <Button onClick={() => history.push('/works')} className="ml-5" size="" variant="outline-success">Show More</Button>
+                <Button onClick={() => history.push('/works')} className="ml-5" size="xs" variant="outline-success">Show More</Button>
             </div>
             <Row className="mt-5">
                 {

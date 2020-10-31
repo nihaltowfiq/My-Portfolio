@@ -17,7 +17,7 @@ const NavigationBar = () => {
                         <Nav.Link href="" onClick={() => history.push('/blogs')}>Blogs</Nav.Link>
                         <Nav.Link href="" onClick={() => history.push('/contact')}>Contact</Nav.Link>
                     </Nav>
-                    <Button target="_blank" href="https://drive.google.com/file/d/10_hv5G5r7rJ8qog56dovc9eKbJndB_vM/view?usp=sharing" variant="outline-success">Resume</Button>
+                    <Button target="_blank" href="https://drive.google.com/uc?export=download&id=10_hv5G5r7rJ8qog56dovc9eKbJndB_vM" variant="outline-success">Resume</Button>
                 </Navbar.Collapse>
             </Navbar>
         </Container>
