@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Form, Row } from 'react-bootstrap';
+import { Container, Form, Row } from 'react-bootstrap';
 import Footer from '../Footer/Footer';
 import NavigationBar from '../Home/NavigationBar/NavigationBar';
 import emailjs from 'emailjs-com';
@@ -20,31 +20,27 @@ const Contact = () => {
     return (
         <div>
             <NavigationBar></NavigationBar>
-            <Container className="pb-3 my-5">
-                <h2 className="text-center text-success">Contact Me</h2>
-                <Row className="justify-content-md-center">
+            <Container className="pb-3 mt-3 mb-4">
+                <h2 className="text-center textPurple">Contact Me</h2>
+                <Row className="justify-content-center">
                     <Form className="contact-form" onSubmit={sendEmail}>
                         <Form.Group >
                             <Form.Label>Name</Form.Label>
                             <Form.Control name="name" type="text" placeholder="Enter your name" required />
                         </Form.Group>
-
                         <Form.Group >
                             <Form.Label>Email</Form.Label>
                             <Form.Control name="email" type="email" placeholder="Enter your email" required />
                         </Form.Group>
-
                         <Form.Group >
                             <Form.Label>Subject</Form.Label>
                             <Form.Control name="subject" type="text" placeholder="Enter subject" required />
                         </Form.Group>
-
                         <Form.Group >
                             <Form.Label>Message</Form.Label>
                             <Form.Control name="message" as="textarea" rows={3} type="text" placeholder="Enter your message" required />
                         </Form.Group>
-
-                        <Button variant="success" type="submit" style={{width:'120px'}}>Send</Button>
+                        <button className="btn btnPurple" type="submit" style={{width:'120px'}}>Send</button>
                     </Form>
                 </Row>
             </Container>

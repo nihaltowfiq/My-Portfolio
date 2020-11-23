@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
@@ -42,8 +42,8 @@ const SomeWorks = () => {
     return (
         <Container id="works" className="mt-5 pb-5 text-white">
             <div style={{display:'flex', flexWrap:'wrap'}}>
-                <h2><span className="text-success">Some of</span> my works</h2>
-                <Button onClick={() => history.push('/works')} className="ml-5" size="xs" variant="outline-success">Show More</Button>
+                <h2><span className="textPurple">Some of</span> my works</h2>
+                <button onClick={() => history.push('/works')} className="ml-5 btn btnOutlinedPurple" size="xs">Show More</button>
             </div>
             <Row className="mt-5">
                 {

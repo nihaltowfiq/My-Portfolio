@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 .technology span {
-    background-color: #24272b;
+    background-color: #242526;
     margin-right: 5px;
     margin-top: 5px;
     border-radius: 3px;
@@ -17,5 +17,5 @@
     color: white;
 }
 .findMe a:hover {
-    color:  #28A745;
+    color:  #7952b3;
 }

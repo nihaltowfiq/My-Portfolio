@@ -1,3 +1,6 @@
 .contact-form{
+    border: 3px solid  #242526;
+    border-radius: 10px;
+    padding: 25px 15px;
     width: 500px;
 }

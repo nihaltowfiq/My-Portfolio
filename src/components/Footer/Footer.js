@@ -12,9 +12,9 @@ const Footer = () => {
                     <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/nihaltowfiq/"><FontAwesomeIcon icon={faLinkedinIn} size='lg' /></a>
                     <a rel="noreferrer" target="_blank" href="https://github.com/nihaltowfiq/"><FontAwesomeIcon icon={faGithub} size='lg' /></a>
                     <a rel="noreferrer" target="_blank" href="https://twitter.com/NihalTowfiq"><FontAwesomeIcon icon={faTwitter} size='lg' /></a>
-                    <a rel="noreferrer" target="_blank" href="https://twitter.com/NihalTowfiq"><FontAwesomeIcon icon={faMediumM} size='lg' /></a>
+                    <a rel="noreferrer" target="_blank" href="https://nihaltowfiq.medium.com/"><FontAwesomeIcon icon={faMediumM} size='lg' /></a>
                 </div>
-                <p className="pt-3 mt-1">designed and built by <a href="https://github.com/nihaltowfiq/" className="text-success">Kazi Nihal Towfiq</a></p>
+                <p className="pt-3 mt-1">designed and built by <a rel="noreferrer" target="_blank" href="https://github.com/nihaltowfiq/" className="textPurple footer-link" >Kazi Nihal Towfiq</a></p>
             </Container>
         </div>
     );

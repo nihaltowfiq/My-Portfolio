@@ -1,5 +1,5 @@
 .footer-wrapper{
-    background-color: #24272b;
+    background-color: #242526;
     height: 110px;
 }
 .icon-wrapper a {
@@ -10,6 +10,9 @@
     color: white;
 }
 .icon-wrapper a:hover{
-    border: 1px solid #28A745;
-    color: #28A745;
+    border: 1px solid #7952b3;
+    color: #7952b3;
+}
+.footer-link:hover{
+    color: #7952b3;
 }

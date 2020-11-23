@@ -5,8 +5,10 @@
     font-weight: 500;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
-    color: #28A745;
-}
-.btn{
+    color: #7952b3;
     font-size: large;
+    font-weight: 500;
 }
+/* .btn{
+    font-size: large;
+} */

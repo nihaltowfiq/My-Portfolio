@@ -9,7 +9,7 @@ const Blogs = () => {
         <div >
             <NavigationBar />
             <Container className="fullHeight text-white text-center my-5 py-5">
-                <h1>Blogs are <span className="text-success">Coming Soon!!</span></h1>
+                <h1>Blogs are <span className="textPurple">Coming Soon!!</span></h1>
             </Container>
             <Footer />
         </div>

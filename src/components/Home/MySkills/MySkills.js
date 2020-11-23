@@ -7,7 +7,7 @@ const MySkills = () => {
     const mySkill = skill;
     return (
         <Container className="my-5">
-            <h2 className="mb-3">My Skill - <span className="text-success">Technology & Tools</span></h2>
+            <h2 className="mb-3">My Skill - <span className="textPurple">Technology & Tools</span></h2>
             <div className="skill">
                 {
                     mySkill.map(({ name, percent }) => (

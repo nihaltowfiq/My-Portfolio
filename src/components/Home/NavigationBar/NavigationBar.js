@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
 import './NavigationBar.css';
 
@@ -7,7 +7,7 @@ const NavigationBar = () => {
     const history = useHistory();
     return (
         <Container fluid="md">
-            <Navbar className="text-right" collapseOnSelect expand="md" bg="dark" variant="dark">
+            <Navbar className="text-right bg-black" collapseOnSelect expand="md"  variant="dark">
                 <Navbar.Toggle className="ml-auto" aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
@@ -17,7 +17,7 @@ const NavigationBar = () => {
                         <Nav.Link href="" onClick={() => history.push('/blogs')}>Blogs</Nav.Link>
                         <Nav.Link href="" onClick={() => history.push('/contact')}>Contact</Nav.Link>
                     </Nav>
-                    <Button target="_blank" href="https://drive.google.com/uc?export=download&id=10_hv5G5r7rJ8qog56dovc9eKbJndB_vM" variant="outline-success">Resume</Button>
+                    <button className="btn btnOutlinedPurple" target="_blank" href="https://drive.google.com/uc?export=download&id=10_hv5G5r7rJ8qog56dovc9eKbJndB_vM">Resume</button>
                 </Navbar.Collapse>
             </Navbar>
         </Container>

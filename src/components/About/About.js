@@ -17,11 +17,11 @@ const About = () => {
                         <div className="ml-5">
                             <img style={{ borderRadius: '50%', height: '250px' }} src={myPic} className="img-fluid" alt="" />
                         </div>
-                        <h3 className="pt-4 pb-1">I'm <span className="text-success">Kazi Nihal Towfiq</span></h3>
+                        <h3 className="pt-4 pb-1">I'm <span className="textPurple">Kazi Nihal Towfiq</span></h3>
                         <p>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. I develop web applications. My core skill is based on Javascript and I love to do most of the things using JavaScript and React JS.</p>
                     </Col>
                     <Col md="6">
-                        <h3 className="mt-5 pt-2">Skills - <span className="text-success">Technology & Tools</span></h3>
+                        <h3 className="mt-5 pt-2">Skills - <span className="textPurple">Technology & Tools</span></h3>
                         <div className="technology pt-2">
                             <span>JavaScript</span>
                             <span>ES6</span>
@@ -42,7 +42,7 @@ const About = () => {
                             <span>Material-UI</span>
                         </div>
                         <div className="findMe mt-3">
-                            <h3 className="pb-3">Find <span className="text-success">Me</span></h3>
+                            <h3 className="pb-3">Find <span className="textPurple">Me</span></h3>
                             <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/nihaltowfiq/"><FontAwesomeIcon icon={faLinkedin} size='2x' /></a>
                             <a rel="noreferrer" target="_blank" href="https://github.com/nihaltowfiq/"><FontAwesomeIcon icon={faGithub} size='2x' /></a>
                             <a rel="noreferrer" target="_blank" href="https://twitter.com/NihalTowfiq"><FontAwesomeIcon icon={faTwitter} size='2x' /></a>

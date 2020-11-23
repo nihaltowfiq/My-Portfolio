@@ -9,7 +9,7 @@
   
 .skill .card {
     position: relative;
-    background-color: #24272b;
+    background-color: #242526;
     padding: 20px;
     padding-bottom: 30px;
     margin: 12px;
@@ -18,7 +18,7 @@
   
 .skill .card p {
     position: absolute;
-    background-color: #28A745;
+    background-color: #7952b3;
     padding: 3px 5px;
     top: 25px;
     right: 15px;
@@ -30,7 +30,7 @@
     bottom: 0;
     left: 0;
     height: 10px;
-    background-color: #28A745;
+    background-color: #7952b3;
     border-radius: 4px;
 }
   
