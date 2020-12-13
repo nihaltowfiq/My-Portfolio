@@ -7,7 +7,7 @@ const ContactMe = () => {
     return (
         <Container >
             <section className="text-white text-center p-5">
-                <p className="px-5">I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.</p>
+                <p className="px-md-5">I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me.</p>
                 <button onClick={() => history.push('/contact')} className="mt-4 btn btn-lg btnOutlinedPurple" >Contact Me</button>
             </section>
         </Container>
