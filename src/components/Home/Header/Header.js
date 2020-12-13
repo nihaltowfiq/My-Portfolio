@@ -10,8 +10,11 @@ const Header = () => {
   return (
     <Container className="mt-2 mb-4 pb-5">
       <Row className="">
-        <Col md={6} className="text-white order-2 order-md-1">
-          <div className="pt-5 mt-5 pl-5">
+        <Col
+          md={6}
+          className="text-white order-2 order-md-1 justify-content-sm-center"
+        >
+          <div className="pt-5 mt-5 pl-md-5">
             <h5 className="textPurple">Hello I'm</h5>
             <h1 style={{ fontSize: "50px", fontWeight: "700" }}>
               KAZI NIHAL TOWFIQ
@@ -42,12 +45,13 @@ const Header = () => {
               >
                 About Me
               </button>
-              <button
-                className="btn btnOutlinedPurple btn-lg mb-2"
-                target="_blank"
-                href="https://drive.google.com/uc?export=download&id=10_hv5G5r7rJ8qog56dovc9eKbJndB_vM"
-              >
-                Get Resume
+              <button className="btn btnOutlinedPurple btn-lg mb-2 btnLink">
+                <a
+                  target="blank"
+                  href="https://drive.google.com/uc?export=download&id=10_hv5G5r7rJ8qog56dovc9eKbJndB_vM"
+                >
+                  Get Resume
+                </a>
               </button>
             </div>
           </div>

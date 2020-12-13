@@ -1,51 +1,58 @@
-.header-pic{
-    border-radius: 50%; 
-    height: 420px; 
-    border: 2px solid #7952b3;
+.header-pic {
+  border-radius: 50%;
+  height: 420px;
+  border: 2px solid #7952b3;
 }
-.bg-black{
-    background-color: #18191A;
+.bg-black {
+  background-color: #18191a;
 }
-.bg-light-dark{
-    background-color: #242526;
+.bg-light-dark {
+  background-color: #242526;
 }
-.textPurple{
-    color:  #7952b3;
+.textPurple {
+  color: #7952b3;
 }
-.btnPurple{    
-    color: white;
-    background-color: #7952b3;
-    border-color: #7952b3;
-    font-weight: 500;
+.btnPurple {
+  color: white;
+  background-color: #7952b3;
+  border-color: #7952b3;
+  font-weight: 500;
 }
-.btnPurple:hover{
-    color: white;
-    background-color:  #7544be;
-    border-color: #7544be;
+.btnPurple:hover {
+  color: white;
+  background-color: #7544be;
+  border-color: #7544be;
 }
-.btnPurple:active{
-    color: white;
-    background-color: #7544be;
-    border-color: #7544be;
+.btnPurple:active {
+  color: white;
+  background-color: #7544be;
+  border-color: #7544be;
 }
-.btnPurple:focus{
-    box-shadow: 0 0 0 3px  rgba(121, 82, 179, 0.25);
+.btnPurple:focus {
+  box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25);
 }
-.btnOutlinedPurple{    
-    color: #7952b3;
-    border-color: #7952b3;
-    font-weight: 500;
+.btnOutlinedPurple {
+  color: #7952b3;
+  border-color: #7952b3;
+  font-weight: 500;
 }
-.btnOutlinedPurple:hover{
-    color: white;
-    background-color:#7952b3;
-    border-color: #7952b3;
+.btnOutlinedPurple:hover {
+  color: white;
+  background-color: #7952b3;
+  border-color: #7952b3;
 }
-.btnOutlinedPurple:active{
-    color: white;
-    background-color:#7952b3;
-    border-color: #7952b3;
+.btnOutlinedPurple:active {
+  color: white;
+  background-color: #7952b3;
+  border-color: #7952b3;
 }
-.btnOutlinedPurple:focus{
-    box-shadow: 0 0 0 3px  rgba(121, 82, 179, 0.25);
+.btnOutlinedPurple:focus {
+  box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25);
+}
+.btnLink a {
+  text-decoration: none;
+  color: #7952b3;
+}
+.btnLink:hover a {
+  color: white;
 }
