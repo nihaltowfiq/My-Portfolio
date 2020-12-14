@@ -8,7 +8,6 @@ import { useHistory } from "react-router-dom";
 import worksData from "../../../datas/worksData";
 
 const SomeWorks = () => {
-  //   const workDatas = datas;
   const workDatas = worksData.slice(0, 6);
   const history = useHistory();
   return (
@@ -31,7 +30,14 @@ const SomeWorks = () => {
             <Card className="mb-3">
               <Card.Img height="180px" variant="top" src={workData.img} />
               <Card.Body className="cardBody">
-                <h5>{workData.title} </h5>
+                <h5>
+                  {workData.title}{" "}
+                  {workData.team && (
+                    <span style={{ fontSize: "12px", fontStyle: "italic" }}>
+                      [Team Project]
+                    </span>
+                  )}
+                </h5>
                 <Card.Text>{workData.shortDetail}</Card.Text>
                 <a
                   className="mr-3 iconStyle"

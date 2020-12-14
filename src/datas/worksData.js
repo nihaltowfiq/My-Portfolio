@@ -18,8 +18,9 @@ const worksData = [
   },
   {
     title: "Apartment Hunt",
+    team: true,
     shortDetail:
-      "A MERN stack web application, team project - built with ReactJS, MongoDB, NodeJS.",
+      "A MERN stack web application built with ReactJS, MongoDB, NodeJS.",
     longDetail:
       "A MERN stack web application, team project - built with ReactJS, MongoDB, NodeJS. Users can login via google Account. Users can choose a apartment and check-in. User can also cancel a the booking. There's also a admin panel where the admin can manage the bookings and add new apartment services.",
     img: apartmentHunt,

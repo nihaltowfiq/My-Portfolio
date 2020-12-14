@@ -1,18 +1,19 @@
-.footer-wrapper{
-    background-color: #242526;
-    height: 110px;
+.footer-wrapper {
+  background-color: #242526;
+  height: 110px;
 }
 .icon-wrapper a {
-    border: 1px solid white;
-    border-radius: 50%;
-    padding: 5px;
-    margin: 5px;
-    color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+  color: white;
 }
-.icon-wrapper a:hover{
-    border: 1px solid #7952b3;
-    color: #7952b3;
+.icon-wrapper a:hover {
+  text-decoration: none;
+  border: 1px solid #7952b3;
+  color: #7952b3;
 }
-.footer-link:hover{
-    color: #7952b3;
+.footer-link:hover {
+  color: #7952b3;
 }
