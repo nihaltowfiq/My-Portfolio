@@ -13,16 +13,16 @@ import {
 
 const About = () => {
   return (
-    <div style={{ height: "100vh" }}>
+    <div>
       <NavigationBar></NavigationBar>
       <Container className="text-white pt-5">
         <Row className="pt-5">
           <Col md={6}>
-            <div className="ml-md-5 justify-content-sm-center">
+            <div className="ml-md-5 text-sm-center">
               <img
                 style={{ borderRadius: "50%", height: "250px" }}
                 src={myPic}
-                className="img-fluid text-center"
+                className="img-fluid"
                 alt=""
               />
             </div>

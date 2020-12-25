@@ -44,7 +44,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="pt-3 mt-1">
-          designed and built by{" "}
+          develop by{" "}
           <a
             rel="noreferrer"
             target="_blank"
