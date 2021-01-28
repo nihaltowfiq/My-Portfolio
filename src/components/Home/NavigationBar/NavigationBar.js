@@ -38,7 +38,7 @@ const NavigationBar = () => {
             <button className="btn btnOutlinedPurple btnLink">
               <a
                 target="blank"
-                href="https://drive.google.com/uc?export=download&id=10_hv5G5r7rJ8qog56dovc9eKbJndB_vM"
+                href="https://drive.google.com/uc?export=download&id=1CyrtS0XFGD2UdMO5xvdq-Tdt6XZA2qeT"
               >
                 Resume
               </a>
