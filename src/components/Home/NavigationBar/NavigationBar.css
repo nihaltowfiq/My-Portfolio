@@ -1,13 +1,18 @@
-.navbar-dark .navbar-nav .nav-link {
-    color: white;
-    margin-right: 10px;
-    font-size: large;
-    font-weight: 500;
+.navBar a {
+  color: white;
+  margin-right: 10px;
+  font-size: large;
+  font-weight: 500;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
 }
-.navbar-dark .navbar-nav .nav-link:hover{
-    color: #7952b3;
-    font-size: large;
-    font-weight: 500;
+.navBar a:hover,
+a:active,
+a.active {
+  color: #7952b3;
+  font-size: large;
+  font-weight: 500;
 }
 /* .btn{
     font-size: large;

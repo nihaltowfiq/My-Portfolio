@@ -1,13 +1,12 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import Headroom from "react-headroom";
-import { useHistory } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./NavigationBar.css";
 
 const NavigationBar = () => {
-  const history = useHistory();
   return (
-    <Headroom style={{ transition: "all .5s ease-in-out" }}>
+    <Headroom style={{ transition: "all 1s ease-in-out" }}>
       <Container fluid="md">
         <Navbar
           className="text-right bg-black"
@@ -20,20 +19,14 @@ const NavigationBar = () => {
             aria-controls="responsive-navbar-nav"
           />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ml-auto">
-              <Nav.Link href="" onClick={() => history.push("/")}>
+            <Nav className="ml-auto navBar">
+              <NavLink exact to="/">
                 Home
-              </Nav.Link>
-              <Nav.Link onClick={() => history.push("/about")}>About</Nav.Link>
-              <Nav.Link href="" onClick={() => history.push("/works")}>
-                Works
-              </Nav.Link>
-              <Nav.Link href="" onClick={() => history.push("/blogs")}>
-                Blogs
-              </Nav.Link>
-              <Nav.Link href="" onClick={() => history.push("/contact")}>
-                Contact
-              </Nav.Link>
+              </NavLink>
+              <NavLink to="about">About</NavLink>
+              <NavLink to="/works">Works</NavLink>
+              <NavLink to="/blogs">Blogs</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </Nav>
             <button className="btn btnOutlinedPurple btnLink">
               <a
