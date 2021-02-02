@@ -1,9 +1,9 @@
-html {
+/* html {
   height: 100%;
 }
 body {
   min-height: 100%;
-}
+} */
 .fullHeight {
-  height: 100vh;
+  min-height: 83vh;
 }

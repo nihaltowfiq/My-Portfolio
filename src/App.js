@@ -8,31 +8,25 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Works from "./components/Works/Works";
 import Example from "./components/Example/Example";
+import NavigationBar from "./components/Home/NavigationBar/NavigationBar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="app">
       <Router>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route path="/about">
-            <About></About>
-          </Route>
-          <Route path="/blogs">
-            <Blogs></Blogs>
-          </Route>
-          <Route path="/contact">
-            <Contact></Contact>
-          </Route>
-          <Route path="/works">
-            <Works></Works>
-          </Route>
-          <Route path="/exp">
-            <Example></Example>
-          </Route>
-        </Switch>
+        <NavigationBar />
+        <React.StrictMode>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/blogs" component={Blogs} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/works" component={Works} />
+            <Route path="/exp" component={Example} />
+          </Switch>
+        </React.StrictMode>
+        <Footer />
       </Router>
     </div>
   );
