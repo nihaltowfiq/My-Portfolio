@@ -22,11 +22,11 @@ const Header = () => {
             <Typical
               steps={[
                 "Web Developer",
+                1500,
+                "Frontend Developer",
                 1000,
-                "Programmer",
-                500,
                 "MERN Stack Developer",
-                1000,
+                1500,
               ]}
               loop={Infinity}
               wrapper="h5"
